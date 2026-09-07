@@ -1,0 +1,1255 @@
+ .main1{
+    background:linear-gradient(rgba(2, 62, 77, 0.8),rgba(4, 90, 77, 0.7)),url(person1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align:center;
+ }
+/* /////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width:1024px){
+ 
+    /* navbar start..................................../ */
+
+body{
+    margin: 0;
+    /* text-align: center; */
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav span{
+    display: none;
+}
+.nav1 a,.mail{
+    font-size: 22px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.nav1 a:hover,.mail:hover{
+    color: aqua;
+}
+/* Main heading////////////////////////////////////// */
+.mainhead{
+    margin-top: 320px;
+    position: relative;
+    
+}
+.h31{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+.h11{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    width: 70%;
+    margin: auto;
+}
+.mainhead input{
+    padding: 10px;
+    border-radius:25px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;   
+   
+}
+.mainhead button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    position: absolute;
+    left: 54%;
+    height: 50px;
+    width:120px;
+    font-size: 16px;
+    color: white;
+}
+.mainhead input::placeholder{
+    font-size: 16px;
+    
+}
+.mainhead button:hover{
+    
+    background-color: black;
+}
+/* ////////////////////////////////////..............Content Page........./////////////////////// */
+.main2{
+display: flex;
+justify-content: space-around;
+width: 90%;
+margin:auto;
+/* margin-left: 8%; */
+/* padding-left: 10%; */
+}
+.content{
+    margin-top: 50px;
+}
+.h12{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(10, 9, 9);
+}
+.nav2{
+    font-size: 20px;
+    word-spacing: 20px;
+}
+.nav2 a{
+    padding: 10px;
+    color:grey;
+}
+.nav2 a:hover{
+    border-bottom:2px solid green;
+    color: black;
+   
+}
+.div1{
+    margin-top:50px;
+    /* width: 60%; */
+    /* margin: auto; */
+}
+.h21{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(90, 89, 89);
+}
+.div1 p{
+    word-spacing: 5px;
+    opacity: 0.5;
+    font-size: 18px;
+}
+.img1 img{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+}
+/* //////////////////////////......Person details...........////////////////////// */
+.main3{
+       background-color:rgb(241, 235, 235) ;
+    background-size: cover;
+   height: 120vh;
+   
+}
+.person{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    
+
+}
+.person1 img{
+    width: 100%;
+    height: 400px;
+    /* height: 300px; */
+}
+.persondetails,.persondetailsb,.persondetailsc{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+
+.main3 .h13{
+    text-align: center;
+    font-size: 50px;
+    padding: 100px;
+    font-weight: 100;
+}
+.persondetails h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetails p{
+    font-size: 20px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetails h3{
+    font-size: 18px;
+
+}
+.persondetailsb h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsb p{
+    font-size: 20px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsb h3{
+    font-size: 18px;
+
+}
+.persondetailsc h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsc p{
+    font-size: 20px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsc h3{
+    font-size: 18px;
+
+}
+/* /////////////////////......Next Page.........../////////////////////// */
+.main4{
+    background-color: white;
+    height: 60vh;
+    
+}
+.div2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    margin-top: 120px;
+   
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.texts{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 65%;
+
+}
+.texts h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.texts p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+}
+.profile img{
+    border-radius: 50%;
+    
+}
+.profile{
+    display: flex;
+}
+.profile h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+
+}
+/* ////////////////////////.................Table Content.................///////////////////// */
+.main5{
+    background-color:rgb(241, 235, 235) ;
+    height: 80vh;
+
+}
+.main5 h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    opacity: 0.8;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.table{
+    display: flex;
+    /* width: 90%; */
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    width: 90%;
+ 
+}
+.table1,.table2,.table3{
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.table1,.table2{
+    border-right: 2px solid rgb(224, 218, 218) ;
+}
+.table h2{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    font-weight: 100;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+
+}
+.table p{
+    font-size:20px;
+    opacity: 0.7;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(224, 218, 218) ;
+    padding: 10px;
+}
+.div3 button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    width:120px;
+    font-size: 16px;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+.div3 h3{
+    font-size:22px;
+    opacity: 0.7;
+}
+/* //////////////////////////////////bottom///////////////////////////////////////////////////////////////////// */
+.div4{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+}
+.div4 h1{
+    font-size: 50px;
+    font-weight: 100;
+    opacity: 0.8;
+    text-align: center;
+    height: 100px;
+   
+    
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218);
+    margin-right: 10px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.textbox button{
+     padding: 10px;
+    background-color: black;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    width:100%;
+    font-size: 16px;
+    color: white;
+}
+.textbox button:hover{
+    background-color: rgb(33, 102, 87);
+    
+}
+.textbox input::placeholder{
+    font-size: 20px;
+}
+.textarea{
+    text-align: center;
+    margin-top: 10px;
+}
+.textarea textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+    height: 150px;
+
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+.bottoms{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    /* width: 70%; */
+    margin: auto;
+}
+.bottom p{
+    font-size: 20px;
+    color: rgb(35, 34, 34);
+}
+.icons i{
+    padding: 10px;
+}
+.icons i:hover{
+    background-color: grey;
+    border-radius: 50%;
+}
+}
+/* ...................................................Tablet...................................... */
+@media screen and (min-width:600px) and (max-width:1023px){
+    /* nav bar.................................................. */
+ 
+body{
+    margin: 0;
+    /* text-align: center; */
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav1 a,.mail{
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+    margin-top:20px;
+}
+.nav1 a:hover,.mail:hover{
+    color: aqua;
+}
+.nav span{
+    display: none;
+}
+.head{
+    font-size: 20px;
+    /* font-weight: 500; */
+    margin-top: 26px;
+}
+/* Main head///////////////////////////////////////////// */
+.mainhead{
+    margin-top: 180px;
+    position: relative;
+    
+}
+.h31{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.h11{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 50;
+    width: 50%;
+    margin:auto;
+}
+.mainhead input{
+    padding: 10px;
+    border-radius:25px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 50%;
+    height: 40px;   
+    margin-top:20px;
+    
+   
+}
+.mainhead button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    position: absolute;
+    left: 60%;
+    height: 40px;
+    width:120px;
+    font-size: 16px;
+    color: white;
+    margin-top:20px;
+}
+.mainhead input::placeholder{
+    font-size: 16px;
+    
+}
+.mainhead button:hover{
+    
+    background-color: black;
+}
+/* //////////////////////////////////////////////...........Content Page....../////////////////////// */
+.main2{
+display: flex;
+justify-content: space-around;
+width: 90%;
+margin:auto;
+/* margin-left: 8%; */
+/* padding-left: 10%; */
+}
+.content{
+    margin-top: 50px;
+}
+.h12{
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(10, 9, 9);
+}
+.nav2{
+    font-size: 15px;
+    word-spacing: 20px;
+}
+.nav2 a{
+    padding: 10px;
+}
+.nav2 a:hover{
+    border-bottom:2px solid green;
+   
+}
+.div1{
+    margin-top:50px;
+    /* width: 60%; */
+    /* margin: auto; */
+}
+.h21{
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(90, 89, 89);
+}
+.div1 p{
+    word-spacing: 5px;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.img1 img{
+    margin-top: 120px;
+    width: 300px;
+    height: 300px;
+}
+/* //////////////////////////......Person details...........////////////////////// */
+.main3{
+    background-color: rgb(244, 235, 235);
+    background-size: cover;
+    height: 150vh;
+
+   
+}
+.person{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+   
+    
+
+}
+.person1 img{
+    width: 100%;
+    height: 300px;
+    /* height: 300px; */
+}
+.persondetails,.persondetailsb,.persondetailsc{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+
+    
+}
+
+.main3 .h13{
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+.persondetails h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetails p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetails h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.persondetailsb h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsb p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsb h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.persondetailsc h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsc p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsc h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+/* /////////////////////......Next Page.........../////////////////////// */
+.main4{
+    background-color: white;
+    height: 150vh;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
+   
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.texts{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 60px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.texts h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.texts p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+}
+.profile img{
+    border-radius: 50%;
+    
+}
+.profile{
+    display: flex;
+}
+.profile h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+
+}
+/* ////////////////////////.................Table Content.................///////////////////// */
+.main5{
+    background-color:rgb(224, 218, 218) ;
+    height: 200vh;
+
+}
+.main5 h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    opacity: 0.8;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.table{
+    display: flex;
+    /* width: 90%; */
+    /* justify-content: center; */
+    /* background-color: white; */
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.table1,.table2,.table3{
+    padding: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: white;
+    
+}
+.table3{
+    margin-top: 100px;
+}
+.table1,.table2{
+    border-right: 2px solid rgb(224, 218, 218) ;
+}
+.table h2{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    font-weight: 100;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+
+}
+.table p{
+    font-size:20px;
+    opacity: 0.7;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(224, 218, 218) ;
+    padding: 10px;
+}
+.div3 button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    width:120px;
+    font-size: 16px;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+.div3 h3{
+    font-size:22px;
+    opacity: 0.7;
+}
+/* //////////////////////////////////bottom///////////////////////////////////////////////////////////////////// */
+.div4{
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+}
+.div4 h1{
+    font-size: 50px;
+    font-weight: 100;
+    opacity: 0.8;
+    text-align: center;
+    height: 100px;
+   
+    
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218);
+    margin-right: 10px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.textbox button{
+     padding: 10px;
+    background-color: black;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    width:100%;
+    font-size: 16px;
+    color: white;
+}
+.textbox button:hover{
+    background-color: rgb(33, 102, 87);
+    
+}
+.textbox input::placeholder{
+    font-size: 20px;
+}
+.textarea{
+    text-align: center;
+    margin-top: 10px;
+}
+.textarea textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+    height: 150px;
+
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+.bottoms{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    /* width: 70%; */
+    margin: auto;
+}
+.bottom p{
+    font-size: 20px;
+    color: rgb(35, 34, 34);
+}
+.icons i{
+    padding: 10px;
+}
+.icons i:hover{
+    background-color: grey;
+    border-radius: 50%;
+}
+}
+
+/* ////////////////////////////////////////////////////////////////////////////...........Mobile...........*/
+@media screen and (min-width:320px) and (max-width:600px){
+    /* nav bar.................................................. */
+ 
+body{
+    margin: 0;
+    
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.nav1 a,.mail{
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    display: none;
+}
+.nav span{
+    color: black;
+}
+.nav span:hover{
+    color: aqua;
+}
+.head{
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 26px;
+}
+/* Main head///////////////////////////////////////////// */
+.mainhead{
+    margin-top: 180px;
+    /* position: relative; */
+    
+}
+.h31{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.h11{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight:100;
+}
+
+.mainhead input{
+    padding: 10px;
+    border-radius:25px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 70%;
+    height: 40px;   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+   
+}
+.mainhead button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    /* position: absolute; */
+    /* left: 60%; */
+    height: 40px;
+    width:70%;
+    font-size: 16px;
+    color: white;
+    margin-top:20px;
+
+}
+.mainhead input::placeholder{
+    font-size: 16px;
+    
+}
+.mainhead button:hover{
+    
+    background-color: black;
+}
+/* //////////////////////////////////////////////...........Content Page....../////////////////////// */
+.main2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 90%;
+margin:auto;
+/* margin-left: 8%; */
+/* padding-left: 10%; */
+}
+.content{
+    margin-top: 50px;
+}
+.h12{
+    font-size: 33px;
+    font-weight: 100;
+    color: rgb(10, 9, 9);
+}
+.nav2{
+    font-size: 15px;
+    word-spacing: 20px;
+}
+.nav2 a{
+    padding: 10px;
+}
+.nav2 a:hover{
+    border-bottom:2px solid green;
+   
+}
+.div1{
+    margin-top:50px;
+    /* width: 60%; */
+    /* margin: auto; */
+}
+.h21{
+    font-size: 28px;
+    font-weight: 100;
+    color: rgb(90, 89, 89);
+}
+.div1 p{
+    word-spacing: 5px;
+    opacity: 0.5;
+    font-size: 16px;
+}
+.img1 img{
+    /* margin-top: 120px; */
+    width: 300px;
+    height: 400px;
+}
+/* //////////////////////////......Person details...........////////////////////// */
+.main3{
+    background-color: rgb(252, 246, 246);
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+}
+.person{
+    /* display: flex; */
+    background-color: white;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+.person1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    
+}
+.person1 img{
+    width: 100%;
+    height: 300px;
+    /* height: 300px; */
+}
+.persondetails,.persondetailsb,.persondetailsc{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+
+    
+}
+
+.main3 .h13{
+    text-align: center;
+    font-size: 40px;
+    padding: 100px;
+    opacity: 0.8;
+    font-weight: lighter;
+}
+.persondetails h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetails p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetails h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.persondetailsb h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsb p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsb h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.persondetailsc h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+.persondetailsc p{
+    font-size: 15px;
+    word-spacing: 5px;
+    opacity: 0.7;
+}
+.persondetailsc h3{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+
+.persondetailsb{
+    grid-row: 4/5;
+}
+/* /////////////////////......Next Page.........../////////////////////// */
+.main4{
+    background-color: white;
+    height: 120vh;
+    
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    margin-top: 120px;
+   
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+.texts{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.texts h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.texts p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+}
+.profile img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    display: flex;
+}
+.profile h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.7;
+
+}
+/* ////////////////////////.................Table Content.................///////////////////// */
+.main5{
+    background-color:rgb(244, 231, 231) ;
+    height: 270vh;
+
+}
+.main5 h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    opacity: 0.8;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.table{
+    display: flex;
+    /* width: 90%; */
+    /* justify-content: center; */
+    /* background-color: white; */
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.table1,.table2,.table3{
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    
+}
+.table3,.table2{
+    margin-top: 10px;
+}
+.table1,.table2{
+    border-right: 2px solid rgb(224, 218, 218) ;
+}
+.table h2{
+    color: rgb(45, 45, 45);
+    font-size: 35px;
+    font-weight: 100;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+
+}
+.table p{
+    font-size:20px;
+    opacity: 0.7;
+
+}
+.div3{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(224, 218, 218) ;
+    padding: 10px;
+}
+.div3 button{
+    padding: 10px;
+    background-color: rgb(33, 102, 87);
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    width:120px;
+    font-size: 16px;
+    color: white;
+}
+.div3 button:hover{
+    background-color: black;
+}
+.div3 h3{
+    font-size:22px;
+    opacity: 0.7;
+}
+/* //////////////////////////////////bottom///////////////////////////////////////////////////////////////////// */
+.div4{
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+}
+.div4 h1{
+    font-size: 50px;
+    font-weight: 100;
+    opacity: 0.8;
+    text-align: center;
+    height: 100px;
+   
+    
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218);
+    margin-right: 10px;
+    /* width: 100%; */
+    padding: 20px;
+    
+}
+.textbox button{
+     padding: 10px;
+    background-color: black;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    height: 50px;
+    /* width:100%; */
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+}
+.textbox button:hover{
+    background-color: rgb(33, 102, 87);
+    
+}
+.textbox input::placeholder{
+    font-size: 16px;
+}
+.textarea{
+    text-align: center;
+    margin-top: 10px;
+}
+.textarea textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(224, 218, 218) ;
+    height: 150px;
+
+}
+textarea::placeholder{
+    font-size: 16px;
+}
+.bottoms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-top: 200px;
+    /* width: 70%; */
+    margin: auto;
+}
+.bottom p{
+    font-size: 16px;
+    color: rgb(35, 34, 34);
+}
+.icons i{
+    padding: 10px;
+}
+.icons i:hover{
+    background-color: grey;
+    border-radius: 50%;
+}
+
+}
